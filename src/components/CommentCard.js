@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {ClockSVG} from './svgs/ClockSVG';
-import {HeartSVG} from './svgs/HeartSVG';
+import {ClockSVG} from '../svgs/ClockSVG';
+import {HeartSVG} from '../svgs/HearthSVG';
 
 export const CommentCard = ({ authorName, date, time, numHearts, content }) => {
     return (
